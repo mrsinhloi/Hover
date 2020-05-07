@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/hover_tab_size"
+        android:layout_height="@dimen/hover_tab_size"
+        android:layout_gravity="center"
+        android:src="@drawable/tab_background"
+        android:padding="1dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:padding="2dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:background="@drawable/bubble_counter_bkg"
+        android:text="1" />
+</FrameLayout>
